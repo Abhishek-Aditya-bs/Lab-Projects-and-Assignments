@@ -1,0 +1,29 @@
+void qs(int a[5000],int low,int high)
+{int j;
+if(low<high)
+{
+j=partition(a,low,high);
+qs(a,low,j-1);
+qs(a,j+1,high);
+}}
+
+int partition(int a[5000],int low,int high)
+{
+int pivot=a[low];
+int i=low+1;
+int j=high;
+while(i<=j) //i and j dont cross over
+{
+while(i<=high && a[i]<=pivot) i++;
+while(j>low && a[j]>=pivot) j--;
+if(i<j)
+{
+temp=a[i];a[i]a[j];a[j]=temp;}
+}
+
+if(j!=low)
+{ a[low]=a[j];
+a[j]=a[pivot];
+}
+return j;
+}

@@ -1,0 +1,26 @@
+//Dijkstra's algorithm
+// time complexity theta(|V|^2)
+// 		   theta(|E|log|V|)
+//input G=(V,E) with non negative weights and a source vertex s
+//the length dv of a shortest path from s to v and its predecessor vertex pv for
+// every vertex v in V
+Initailize(Q) //min heap or min priority queue
+for every vertex u in V do {
+	du=inf;pv=null;
+	Insert(Q,u,du); 
+   }
+
+ds=0;decrease(Q,s,ds);
+vt=Null;
+for(int i=0;i<=|V|-1;i++) {
+	u*=deletemin(Q);
+	VT=VT U u*;
+   }
+for every vertex u in V-VT that is adjacent to u* do {
+	if(du*+w(u*,u) < du) {
+		du = du*+w(u*,u);
+		pu=u*;
+		decrease(Q,u,du);
+	}
+   }
+

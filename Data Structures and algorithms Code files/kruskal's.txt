@@ -1,0 +1,18 @@
+//Kruskal's algorithm
+// time complexity theta(|V|^2)
+// 		   theta(|E|log|V|)
+//input G=(V,E) 
+//output ET ,the set of edges composing a minimum spanning tree of G sort E in order of
+// edge weights wi<wi+1<wk 
+ET=null;
+k=0;
+ecounter=0;
+while ecounter<=|V|-1 do {
+	k=k+1;
+	if(ET U eik is acyclic) {
+		ET=ET U eik;
+		ecounter=ecounter+1;
+	}
+   }
+return ET
+

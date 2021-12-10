@@ -1,0 +1,13 @@
+void bfs(int adj[MAX][MAX],int visted[MAX],int q[MAX],int f,int r,int n)
+{
+while(f<=r)
+{ int v=q[f++]; if(f>r) {f=0;r=-1;}
+printf("%d",v);
+for(int i=0;i<n;i++)
+{ if(adj[v][i] && !visited[i])
+	{ 
+		visited[i]=1;
+		q[++r]=i;
+	}
+}
+}

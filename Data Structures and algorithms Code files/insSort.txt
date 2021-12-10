@@ -1,0 +1,14 @@
+void insSort(int a[500],int n)
+{
+int i,j,v;
+for(i=1;i<n;i++)
+{
+j=i-1;
+v=a[i];
+while(j>=0 && a[j]>v)
+{ a[j+1]=a[j];
+j--; }
+a[j+1]=v;
+}
+}
+ 

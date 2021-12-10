@@ -1,0 +1,18 @@
+//josephus
+int winner(Node **h,int m,int n)
+{
+int cnt1=1,cnt2=1;
+Node *p=*h;Node *q;
+while(cnt1<m){ p=p->next; cnt1++; }
+while(p->next!=p)
+{
+cnt2=1;
+while(cnt2<n) { q=p;p=p->next;cnt2++; }
+q->next=p->next;
+printf("lost,p->info);
+free(p);
+p=q->next;
+}
+int winner=p->info;
+return winner;
+}

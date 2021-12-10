@@ -1,0 +1,65 @@
+//heap sort
+
+for(int i=n-1;i>0;i++)
+{
+int elt=a[i];
+a[i]=a[0];
+p=0;
+if(i==1) c=-1;
+else c=1
+if(i>2 && a[2]>a[1]) c=2;
+while(c>=0 && elt<a[c])
+{
+a[p]=a[c];
+p=c;
+c=2*p+1;
+if(c<=i-1 && a[c]<a[c+1])
+c=c+1;
+if(c>i-1) c=-1;
+}
+a[p]=elt;
+}
+
+
+void heapify(int a[],int n, int i)
+{
+int largest=i;
+int l=2*i+1;
+int r=2*i+2;
+
+if(l<n && a[l]>a[largest]) largest =l;
+if(r<n && a[r]>a[largest]) largest=r;
+if(largest!=i)
+swap[a[i],a[largest]);
+
+heapify(a,n,largest);
+}
+void heapSort(int a[],int n)
+{ 
+//build heap
+for(int i=(n/2)-1;i>=0;i--)
+heapify(a,n,i);
+
+//sort heap
+for(int i=n-1;i>0;i--)
+{
+swap[a[0],a[i]);
+heapify(a,i,0);
+}
+}
+
+heap-bottom up approach
+
+for(int i=(n/2)-1;i>=0;i--)
+{
+k=i;v=h[k];heap=false;
+while(!heap && 2*k+1<=n-1)
+{ j=2*k+1;
+if(j<n-1 && h[j]<h[j+1])
+j=j+1;
+if(v>=h[j]) heap=true;
+else
+{ h[k]=h[j];k=j; }
+}
+h[k]=v;
+}

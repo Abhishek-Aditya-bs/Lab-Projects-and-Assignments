@@ -1,0 +1,15 @@
+//Prim's algorithm
+// time complexity theta(|V|^2)
+// 		   theta(|E|log|V|)
+//input G=(V,E)
+//output ET,the set of edges composing a minimum spanning 
+// tree of G
+VT=V0;
+ET=NULL;
+for(i=0;i<|V|-1;i++) {
+	//find a minimum edge e*=(U*,v*) such that v is
+	// in V-VT and u is in VT
+	VT=VT U v*;
+	ET=ET U E*;
+	}
+return ET;

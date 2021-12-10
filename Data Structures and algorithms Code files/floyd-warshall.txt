@@ -1,0 +1,23 @@
+//warshall algorithm
+//efficiency theta(n^3)
+r0=a;
+for(int k=1;k<=n;k++){
+	for(int i=0;i<=n;i++){
+		for(int j=0;j<=n;j++){
+			rk[i,j]=r(k-1)[i,j] or (r(k-1)[i,k] and r(k-1)[k,j])
+		}
+	}
+ }
+return rn;
+
+//floyd's algorithm
+//efficiency theta(n^3)
+d0=w;
+for(int k=1;k<=n;k++){
+	for(int i=0;i<=n;i++){
+		for(int j=0;j<=n;j++){
+		Dk[i,j]=min(D(k-1)[i,j],D(k-1)[i,k] + D(k-1)[k,j]
+		}
+	}
+ }
+return Dn;	

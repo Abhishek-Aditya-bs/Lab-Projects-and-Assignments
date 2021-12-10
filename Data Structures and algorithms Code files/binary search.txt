@@ -1,0 +1,24 @@
+int bs(int a[50],int low,int high,int key)
+{
+ int mid;
+if(low<=high){
+mid=(low+high)/2;
+if(key==mid) return mid;
+else if key<a[mid] 
+return bs(a,low,mid-1,key)
+else 
+return bs(a,mid+1,high,key);
+}
+return -1;
+}
+
+//iterative approach
+
+while low<=high
+{ 
+mid=low+high/2;
+if(key==a[mid]) return mid;
+else if a[mid]<key high=mid-1;
+else low=mid+1;
+}
+return -1;

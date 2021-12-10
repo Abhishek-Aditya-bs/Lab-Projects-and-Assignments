@@ -1,0 +1,25 @@
+//Horspool's algorithm
+/*Time complexity theta(nm) for worst case
+		  theta(n) for random texts */
+//shiftTable(p[0..m-1])
+//input pattern p[0..m-1]
+//output Table[0..size-1]
+for(int i=0;i<=size-1;i++) Table[i]=m;
+for(int j=0;j<=m-2;j++)
+	Table[[p[j]]=m-1-j;
+return Table;
+
+//horspoolMatching(p[o..m-1],T[0..n-1])
+//input p[o..m-1],T[0..n-1]
+//output - the left end indes of the first matching substring 
+// or -1 if there are no matches
+ShiftTable(P[0..m-1])//generates shift table
+int i=m-1;int k;
+while(i<=n-1){
+	k=0;
+	while(k<=m-1 && p[m-1-k]==T[i-k])
+		k=k+1;
+	if(k==m) return i-m+1;
+	else i=i+Table[T[i];
+	}
+return -1

@@ -1,0 +1,18 @@
+//Time complexity theta(n^2)
+//input A[0..n-1]
+//output s[0..n-1]
+for(int i=0;i<n;i++){
+	count[i]=0;
+	}
+for(int i=0;i<=n-2;i++){
+	for(int j=i+1;j<=n-1;j++){
+		if(a[i]<a[j])		
+			count[j]=count[j]+1;
+		else
+			count[i]=count[i]+1;
+		}
+	}
+for(int i=0;i<=n-1;i++){
+	s[count[i]]=a[i];
+	}
+return s;

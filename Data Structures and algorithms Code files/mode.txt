@@ -1,0 +1,14 @@
+int i=0;
+int modefreq=0;
+int mv=0;
+while(i<n)
+{
+runlenghth=1;
+mv=a[i];
+while(i+runlenghth<n && a[i+runlength]==runvalue)
+{ runlenghth++; }
+if(runlength>modefreq)
+{ modefreq = runlength ; mv=runvalue; }
+i+=runlength;
+}
+printf("modefreq,mv");
