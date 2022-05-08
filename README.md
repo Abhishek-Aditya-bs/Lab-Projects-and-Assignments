@@ -11,3 +11,8 @@ This repository contains all the assignment and project files submitted as a par
 8. [Data Strcutures and Algorithms Code files](https://github.com/Abhishek-Aditya-bs/Lab-Projects-and-Assignments/tree/main/Data%20Structures%20and%20algorithms%20Code%20files)
 9. [Operating Systems Code files](https://github.com/Abhishek-Aditya-bs/Lab-Projects-and-Assignments/tree/main/Operating%20systems%20Code%20files)
 10. [Scilab](https://github.com/Abhishek-Aditya-bs/Lab-Projects-and-Assignments/tree/main/SCILAB)
+11. [IPCV Lab](https://github.com/Abhishek-Aditya-bs/Lab-Projects-and-Assignments/tree/main/IPCV%20Lab)
+12. [Compiler Design Lab](https://github.com/Abhishek-Aditya-bs/Lab-Projects-and-Assignments/tree/main/Compiler%20Design%20Lab)
+13. [Cloud Computing Lab](https://github.com/Abhishek-Aditya-bs/Lab-Projects-and-Assignments/tree/main/Cloud%20Computing%20Lab)
+14. [Object Oriented Analysis and Design Lab](https://github.com/Abhishek-Aditya-bs/Lab-Projects-and-Assignments/tree/main/Object%20Oriented%20Analysis%20and%20Design%20Lab)
+15. [Topics of Deep Learning Lab](https://github.com/Abhishek-Aditya-bs/Lab-Projects-and-Assignments/tree/main/Topics%20of%20Deep%20Learning%20Lab)
