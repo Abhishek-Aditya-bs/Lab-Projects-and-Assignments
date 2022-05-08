@@ -1,0 +1,12 @@
+Expression Tree:
++
+-
+/
+10
+5
+*
+2
+7
+3
+
+Valid syntax

@@ -1,0 +1,44 @@
+lab-1_test-1_valid.c
+Valid Syntax!
+Parsed!
+ 
+lab-1_test-2_valid.c
+Valid Syntax!
+Parsed!
+ 
+lab-1_test-1_invalid.c
+[91;msyntax error, unexpected SCOMMENT, expecting ';' or ','[97;m: Line Number : 8, Token : '//semi-colon missing'
+[0mInvalid Syntax!
+[91;msyntax error, unexpected ELSE, expecting end of file[97;m: Line Number : 15, Token : 'else'
+[0m[91;msyntax error, unexpected SCOMMENT, expecting ';' or ','[97;m: Line Number : 15, Token : '//no condition allowed for else block'
+[0m[91;msyntax error, unexpected '}'[97;m: Line Number : 19, Token : '}'
+[0m[91;msyntax error, unexpected '}'[97;m: Line Number : 24, Token : '}'
+[0m[91;msyntax error, unexpected IDENTIFIER, expecting ';' or ','[97;m: Line Number : 26, Token : 'a'
+[0m[91;msyntax error, unexpected WHILE[97;m: Line Number : 27, Token : 'while'
+[0m[91;msyntax error, unexpected '{', expecting ';' or ','[97;m: Line Number : 28, Token : '{'
+[0m[91;msyntax error, unexpected '{', expecting ';' or ','[97;m: Line Number : 30, Token : '{'
+[0m[91;msyntax error, unexpected COLON, expecting ';' or ','[97;m: Line Number : 31, Token : ':'
+[0m[91;msyntax error, unexpected '}'[97;m: Line Number : 38, Token : '}'
+[0mCould not Parse!
+ 
+lab-1_test-2_invalid.c
+[91;msyntax error, unexpected '-', expecting IDENTIFIER or EQ or '[' or '{'[97;m: Line Number : 7, Token : '-'
+[0m[91;msyntax error, unexpected VALUE, expecting IDENTIFIER or EQ or '[' or '{'[97;m: Line Number : 8, Token : '1'
+[0m[91;msyntax error, unexpected DOUBLE, expecting IDENTIFIER or EQ or '[' or '{'[97;m: Line Number : 9, Token : 'double'
+[0m[91;msyntax error, unexpected VALUE, expecting '{'[97;m: Line Number : 10, Token : '100'
+[0m[91;msyntax error, unexpected COLON, expecting ';' or ','[97;m: Line Number : 12, Token : ':'
+[0m[91;msyntax error, unexpected COLON[97;m: Line Number : 13, Token : ':'
+[0m[91;msyntax error, unexpected IDENTIFIER, expecting '('[97;m: Line Number : 15, Token : 'a'
+[0mInvalid Syntax!
+[91;msyntax error, unexpected IF, expecting end of file[97;m: Line Number : 19, Token : 'if'
+[0m[91;msyntax error, unexpected '{', expecting ';' or ','[97;m: Line Number : 20, Token : '{'
+[0m[91;msyntax error, unexpected '{', expecting ';' or ','[97;m: Line Number : 22, Token : '{'
+[0m[91;msyntax error, unexpected '{', expecting ';' or ','[97;m: Line Number : 24, Token : '{'
+[0m[91;msyntax error, unexpected '*'[97;m: Line Number : 26, Token : '*'
+[0m[91;msyntax error, unexpected '}'[97;m: Line Number : 27, Token : '}'
+[0m[91;msyntax error, unexpected WHILE, expecting ';' or ','[97;m: Line Number : 32, Token : 'while'
+[0m[91;msyntax error, unexpected WHILE, expecting ';' or ','[97;m: Line Number : 33, Token : 'while'
+[0m[91;msyntax error, unexpected '{', expecting ';' or ','[97;m: Line Number : 34, Token : '{'
+[0m[91;msyntax error, unexpected '}'[97;m: Line Number : 39, Token : '}'
+[0mCould not Parse!
+ 

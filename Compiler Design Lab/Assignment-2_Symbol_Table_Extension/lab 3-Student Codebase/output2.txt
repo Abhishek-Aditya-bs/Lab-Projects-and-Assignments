@@ -1,0 +1,7 @@
+Sample Input 2 File
+ 
+Valid syntax
+Name    	Size	Type	Lineno	scope	value
+      x	  4	   3	     3	    1	  4.5
+      y	  4	   2	     4	    1	 45.4
+      z	  4	   2	    13	    2	35.000000

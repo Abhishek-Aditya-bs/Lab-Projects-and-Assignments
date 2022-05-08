@@ -1,0 +1,11 @@
+Test File 1
+Valid Syntax!
+Parsed!
+ 
+Test File 2
+[91;msyntax error, unexpected SCOMMENT, expecting ';'[97;m: Line Number : 5, Token : '//ERROR'
+[0m[91;msyntax error, unexpected SCOMMENT, expecting ';'[97;m: Line Number : 9, Token : '//ERROR'
+[0m[91;msyntax error, unexpected '!', expecting ',' or ')'[97;m: Line Number : 19, Token : '!'
+[0m[91;msyntax error, unexpected invalid token[97;m: Line Number : 28, Token : '@'
+[0mInvalid Syntax!
+Parsed!

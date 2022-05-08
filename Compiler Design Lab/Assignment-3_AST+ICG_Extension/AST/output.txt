@@ -1,0 +1,12 @@
+File test_input_1.c
+if >, a, b, seq =, a, +, a, 1, =, b, -, b, 1, 
+Valid syntax
+ 
+File test_input_2.c
+if-else >, a, b, seq =, a, +, a, 1, =, b, -, b, 1, seq =, a, -, a, 1, =, b, -, b, 1, 
+Valid syntax
+ 
+File test_input_3.c
+if-else >, a, b, seq =, a, +, a, 1, =, b, -, b, 1, seq =, a, -, a, 1, =, b, -, b, 1, if-else <, b, 0, seq =, b, +, b, 1, seq =, b, 0, 
+Valid syntax
+ 

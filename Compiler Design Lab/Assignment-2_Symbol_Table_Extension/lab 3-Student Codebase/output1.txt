@@ -1,0 +1,9 @@
+Sample Input 1 File
+ 
+[91mSymbol Table Error[0m: 8 Variable b already declared 
+Valid syntax
+Name    	Size	Type	Lineno	scope	value
+      a	  4	   2	     3	    1	    2
+      b	  4	   3	     4	    1	  4.6
+      c	  8	   4	     5	    1	6.9845
+      d	  1	   1	     6	    1	  "c"
